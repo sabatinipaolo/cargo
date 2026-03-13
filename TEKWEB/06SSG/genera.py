@@ -53,7 +53,7 @@ def main():
         replacements = {
            
             "{{prev_page_num}}": "" if prev_page_num==0 else str(prev_page_num),
-            "{{next_page_num}}": "" if prev_page_num==0 else str(next_page_num),
+            "{{next_page_num}}": "" if next_page_num==0 else str(next_page_num),
             "{{image_name}}": image_filename
  
         }
